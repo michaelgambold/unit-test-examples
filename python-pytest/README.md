@@ -1,7 +1,10 @@
 # Python + Pytest/Pytest-Mock
 
 This example will use the ` Python`` programming language allong with the
- `Pytest`testing framework and the`Pytest-Mock` library.
+`Pytest`testing framework and the`Pytest-Mock` library.
+
+For getting data it uses `httpx` and `pytest_httpx` to execute HTTP request
+and mocking HTTP requests.
 
 ## Install depencencies
 
