@@ -1,0 +1,1 @@
+from python_pytest.main import handler
