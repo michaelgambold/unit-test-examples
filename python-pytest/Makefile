@@ -5,6 +5,7 @@ test:
 	poetry run pytest
 
 test-cov:
-	poetry run pytest
+	poetry run coverage run -m pytest
+	poetry run coverage report
 
 
