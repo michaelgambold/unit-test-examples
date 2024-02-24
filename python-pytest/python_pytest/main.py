@@ -1,2 +1,6 @@
+from python_pytest import api
+
+
 def handler():
-  pass
+    data = api.get_data()
+    return data
